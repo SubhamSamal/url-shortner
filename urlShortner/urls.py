@@ -18,6 +18,7 @@ from django.urls import path
 from shortner.views import urlRedirect
 
 urlpatterns = [
+    path('', admin.site.urls),
     path('admin/', admin.site.urls),
     path('<slug:output>/', urlRedirect),
 ]
