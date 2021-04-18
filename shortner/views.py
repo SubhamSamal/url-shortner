@@ -5,5 +5,4 @@ from .models import urlShortner
 # Create your views here.
 def urlRedirect(request, output=None, *args, **kwargs):
     urlShortnerObj = get_object_or_404(urlShortner, output=output)
-    #redirects directly
     return HttpResponseRedirect(urlShortnerObj.url)
