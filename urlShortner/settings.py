@@ -25,7 +25,7 @@ SECRET_KEY = '0j7xequc=k$crp9vo@$-o$))(6((_ajk_hcb_(5sy(e64nj-(i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1',]
+ALLOWED_HOSTS = ['127.0.0.1','mini--url.herokuapp.com']
 
 
 # Application definition
